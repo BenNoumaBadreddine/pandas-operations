@@ -105,11 +105,3 @@ for index, row in df.iterrows():
 df.apply(lambda row: row["Name"] + " " +
          str(row["Age"]), axis=1)
 ```
-
-
-
-
-
-
-
-
